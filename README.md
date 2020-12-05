@@ -1,6 +1,6 @@
 # SolveIPlusOrMinusAkronB.jl
 
-This Julia package solves
+[WORK IN PROGRESS] This Julia package solves
 ```
 a x + b x (c ⊗ c ⊗ ... ⊗ c) = d
 ```
@@ -34,6 +34,8 @@ whith
  - `order` is an integer representing the number of occurences of `c^T` in the Kronecker products
  - `ws` is an instance of the `IPlusAtKronBWs` type   
 
+## Version
+  - 0.1.0
 ## References
 O. Kamenik (2005), "Solving SDGE models: A new algorithm for the Sylvester
   equation", <i>Computational Economics 25</i>, 167--187.

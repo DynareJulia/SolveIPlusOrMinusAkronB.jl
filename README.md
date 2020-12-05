@@ -8,6 +8,17 @@ by using
 ```
 (I- c^T ⊗ c^T ⊗ ... ⊗ c^T ⊗ b)x = d
 ```
+
+## Installation
+The package requires Julia 1.5
+```
+using Pkg
+Pkg.add(url="https://git.dynare.org/julia-packages/FastLapackInterface.jl")
+Pkg.add(url="https://git.dynare.org/julia-packages/QUT")
+Pkg.add(url="https://git.dynare.org/julia-packages/KroneckerTools.jl")
+Pkg.add(url="https://git.dynare.org/julia-packages/SolveIPlusOrMinusAKronB.jl")
+```
+
 ## Usage
 
 ```
@@ -24,5 +35,5 @@ whith
  - `ws` is an instance of the `IPlusAtKronBWs` type   
 
 ## References
-O. Kamenik (2005), "Solving {SDGE} models: {A} new algorithm for the {Sylvester}
+O. Kamenik (2005), "Solving SDGE models: A new algorithm for the Sylvester
   equation", <i>Computational Economics 25</i>, 167--187.

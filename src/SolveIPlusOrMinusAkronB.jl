@@ -174,7 +174,7 @@ function transformation1(a::Float64,b1::Float64,b2::Float64,depth::Int64,
     m = size(t, 2)
     n = size(s, 1)
     nd = m*n^depth
-    copy!(ws.work3, d)
+    copyto!(ws.work3, d)
     drange = 1:nd
     d1 = view(ws.work3, drange)
     d2 = view(ws.work3, drange .+ nd)

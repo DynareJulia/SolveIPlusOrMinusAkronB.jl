@@ -4,10 +4,8 @@ module SolveIPlusOrMinusAkronB
 # using (I - s^T ⊗ s^T ⊗ ... \otimes s^T \otimes t)x = d
 ###
 
-using QUT
+using QuasiTriangular
 using FastLapackInterface
-using FastLapackInterface.LinSolveAlgo
-using FastLapackInterface.SchurAlgo
 using KroneckerTools
 using LinearAlgebra
 export IPlusAtKronBWs, generalized_sylvester_solver!

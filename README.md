@@ -1,6 +1,8 @@
 # SolveIPlusOrMinusAkronB.jl
 
-[WORK IN PROGRESS] This Julia package solves
+THIS PACKAGE HAS BEEN RENAMED GeneralizedSylvesterSolver.jl
+
+This Julia package solves
 ```
 a x + b x (c ⊗ c ⊗ ... ⊗ c) = d
 ```
